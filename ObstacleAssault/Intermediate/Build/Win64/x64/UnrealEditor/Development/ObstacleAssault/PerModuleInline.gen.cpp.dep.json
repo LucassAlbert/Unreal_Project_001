@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\gitprojects\\unreal_project_001\\obstacleassault\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassault\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\gitprojects\\unreal_project_001\\obstacleassault\\intermediate\\build\\win64\\x64\\obstacleassaulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\projects\\gitprojects\\unreal_project_001\\obstacleassault\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassault\\definitions.obstacleassault.h",
+            "d:\\program files\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
