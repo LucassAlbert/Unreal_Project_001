@@ -1,6 +1,8 @@
 {
 	"SourceFiles": [
 		"D:\\Projects\\GitProjects\\Unreal_Project_001\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.Build.cs",
+		"D:\\Projects\\GitProjects\\Unreal_Project_001\\ObstacleAssault\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\VisualStudioBlueprintDebuggerHelper.Build.cs",
+		"D:\\Projects\\GitProjects\\Unreal_Project_001\\ObstacleAssault\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\VisualStudioTools.Build.cs",
 		"D:\\Projects\\GitProjects\\Unreal_Project_001\\ObstacleAssault\\Source\\ObstacleAssault.Target.cs",
 		"D:\\Projects\\GitProjects\\Unreal_Project_001\\ObstacleAssault\\Source\\ObstacleAssaultEditor.Target.cs"
 	],
