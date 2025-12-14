@@ -23,4 +23,17 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	// Show and edit value in editor
+	UPROPERTY(EditAnywhere)
+	float MemberFloat = 10.0f;
+
+	//Only show value in editor but not editing
+	UPROPERTY(VisibleAnywhere)
+	int MemberInt = 15;
+
+	UPROPERTY(EditAnywhere)
+	FVector MyVector = FVector(610.0f, 650.0f, 250.0f);
+
+	int dir = -1;
+
 };

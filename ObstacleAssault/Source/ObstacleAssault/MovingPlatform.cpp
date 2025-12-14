@@ -16,13 +16,32 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	UE_LOG(LogTemp, Warning, TEXT("Funcionou!!"));
+	//UE_LOG(LogTemp, Warning, TEXT("Funcionou!!"));
+	//UE_LOG(LogTemp, Warning, TEXT("Value Interger is %d!!"),MemberInt);
+
+	//UE_LOG(LogTemp, Warning, TEXT("My Vector X = %f"), MyVector.X);
+	/*UE_LOG(LogTemp, Warning, TEXT("My Vector Y = %f"), MyVector.Y);
+	UE_LOG(LogTemp, Warning, TEXT("My Vector Z = %f"), MyVector.Z);*/
+
+	
+
+	
+
+
 }
 
 // Called every frame
 void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
 
+	if (MyVector.Y == -750) dir = 1;
+	if (MyVector.Y == 650)  dir = -1;
+	MyVector.Y = MyVector.Y + dir;
+
+	//FVector CurrentLocation = GetActorLocation();
+	//CurrentLocation += FVector(0.1, .1f, .1f);
+	SetActorLocation(MyVector);
 }
 
