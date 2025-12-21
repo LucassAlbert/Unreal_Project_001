@@ -1,39 +1,55 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
+#include "Components/PrimitiveComponent.h"
+#include "Engine/EngineTypes.h"
 #include "MovingPlatform.generated.h"
 
 UCLASS()
 class OBSTACLEASSAULT_API AMovingPlatform : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
+
+public:
 	AMovingPlatform();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
+	// Componente de colisão
+	UPROPERTY(VisibleAnywhere, Category = "Collision")
+	UBoxComponent* CollisionBox;
+
+	// Função chamada quando o player entra na colisão
+	UFUNCTION()
+	void OnOverlapBegin(
+		UPrimitiveComponent* OverlappedComp,
+		AActor* OtherActor,
+		UPrimitiveComponent* OtherComp,
+		int32 OtherBodyIndex,
+		bool bFromSweep,
+		const FHitResult& SweepResult
+	);
+
+public:
 	virtual void Tick(float DeltaTime) override;
 
-	// Show and edit value in editor
+	void MovePlatform(float DeltaTime);
+	void RotatePlatform(float DeltaTime);
+
 	UPROPERTY(EditAnywhere)
 	float MemberFloat = 10.0f;
 
-	//Only show value in editor but not editing
 	UPROPERTY(VisibleAnywhere)
 	int MemberInt = 15;
 
 	UPROPERTY(EditAnywhere)
 	FVector MyVector = FVector(610.0f, 650.0f, 250.0f);
 
-	int dir = -1;
+	UPROPERTY(EditAnywhere)
+	FVector PlatformVelocity = FVector::ZeroVector;
 
+	int dir = -1;
 };

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ObstacleAssaultModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+260964f00f5f7f72e79bc0d78994582e91d86ca2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f1dc1aa461d45fccfb1c5114ddcef7b2252efd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ObstacleAssaultModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ObstacleAssaultModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\gitprojects\\unreal_project_001\\obstacleassault\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassault\\uht\\obstacleassaultplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\gitprojects\\unreal_project_001\\obstacleassault\\intermediate\\build\\win64\\x64\\obstacleassaulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\projects\\gitprojects\\unreal_project_001\\obstacleassault\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassault\\definitions.obstacleassault.h",
+            "d:\\projects\\gitprojects\\unreal_project_001\\obstacleassault\\source\\obstacleassault\\obstacleassaultplayercontroller.h",
+            "d:\\projects\\gitprojects\\unreal_project_001\\obstacleassault\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassault\\uht\\obstacleassaultplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

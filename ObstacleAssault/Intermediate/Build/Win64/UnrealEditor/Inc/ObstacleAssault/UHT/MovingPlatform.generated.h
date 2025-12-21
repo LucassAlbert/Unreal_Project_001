@@ -16,10 +16,18 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+class AActor;
+class UPrimitiveComponent;
+struct FHitResult;
+
 // ********** Begin Class AMovingPlatform **********************************************************
+#define FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnOverlapBegin);
+
+
 OBSTACLEASSAULT_API UClass* Z_Construct_UClass_AMovingPlatform_NoRegister();
 
-#define FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMovingPlatform(); \
 	friend struct Z_Construct_UClass_AMovingPlatform_Statics; \
@@ -30,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(AMovingPlatform)
 
 
-#define FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMovingPlatform(AMovingPlatform&&) = delete; \
 	AMovingPlatform(const AMovingPlatform&) = delete; \
@@ -40,12 +48,13 @@ public: \
 	NO_API virtual ~AMovingPlatform();
 
 
-#define FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_9_PROLOG
-#define FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_GENERATED_BODY \
+#define FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_10_PROLOG
+#define FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Projects_GitProjects_Unreal_Project_001_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

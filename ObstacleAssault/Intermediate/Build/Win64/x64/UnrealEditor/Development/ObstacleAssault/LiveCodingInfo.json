@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ObstacleAssault.1.cpp.obj": [
+			"ObstacleAssault.cpp.obj",
 			"AnimNotify_CheckChargedAttack.gen.cpp.obj",
 			"AnimNotify_CheckCombo.gen.cpp.obj",
 			"AnimNotify_DoAttackTrace.gen.cpp.obj",
@@ -21,10 +22,10 @@
 			"CombatLavaFloor.gen.cpp.obj",
 			"CombatLifeBar.gen.cpp.obj",
 			"CombatPlayerController.gen.cpp.obj",
-			"CombatStateTreeUtility.gen.cpp.obj"
-		],
-		"Module.ObstacleAssault.2.cpp.obj": [
+			"CombatStateTreeUtility.gen.cpp.obj",
 			"EnvQueryContext_Player.gen.cpp.obj",
+			"MovingPlatform.gen.cpp.obj",
+			"ObstacleAssault.init.gen.cpp.obj",
 			"ObstacleAssaultCharacter.gen.cpp.obj",
 			"ObstacleAssaultGameMode.gen.cpp.obj",
 			"ObstacleAssaultPlayerController.gen.cpp.obj",
@@ -45,7 +46,9 @@
 			"SideScrollingStateTreeUtility.gen.cpp.obj",
 			"SideScrollingUI.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
-			"ObstacleAssault.cpp.obj",
+			"MovingPlatform.cpp.obj"
+		],
+		"Module.ObstacleAssault.2.cpp.obj": [
 			"ObstacleAssaultCharacter.cpp.obj",
 			"ObstacleAssaultGameMode.cpp.obj",
 			"ObstacleAssaultPlayerController.cpp.obj",
@@ -71,11 +74,6 @@
 			"CombatLifeBar.cpp.obj",
 			"AnimNotify_EndDash.cpp.obj",
 			"PlatformingCharacter.cpp.obj",
-			"MovingPlatform.gen.cpp.obj",
-			"ObstacleAssault.init.gen.cpp.obj",
-			"MovingPlatform.cpp.obj"
-		],
-		"Module.ObstacleAssault.3.cpp.obj": [
 			"PlatformingGameMode.cpp.obj",
 			"PlatformingPlayerController.cpp.obj",
 			"SideScrollingAIController.cpp.obj",
